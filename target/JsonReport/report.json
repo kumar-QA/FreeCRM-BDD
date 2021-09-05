@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-01T12:08:26.131Z",
+        "line": 2,
+        "name": "FreeCRM deals p[age test scenario",
+        "description": "",
+        "id": "freecrm-delaspage-feature;freecrm-deals-p[age-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8320806800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter in to login page",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.enter_into_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7087426900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter username and password details",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.EnterLoginDetails(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bensonneal59@gmail.com",
+                  "Kumar@59"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94062500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15010000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user in homepage",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.verify_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2109458600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on Deals link",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.clickOnDealsLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4310482400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on createBtn",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.clickOnCreateBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 968642000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "fill newdealDetails",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.fill_newdealDetails(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TestData",
+                  "20",
+                  "1000",
+                  "5"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 726061500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinition.DealsStepDefinition.close()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Delaspage feature",
+    "description": "",
+    "id": "freecrm-delaspage-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Deals.feature",
+    "tags": []
+  }
+]
